@@ -1,5 +1,5 @@
 unsigned int factorial (unsigned int n){
-	int f = 1;
+	unsigned int f = 1;
 
 
 		for(int i = 1; i <= n ; i++)
@@ -23,9 +23,9 @@ double power (double base, unsigned int n){
 }
 unsigned int fibonacci (unsigned int n){
 
-	int fib = 0;
-	int a = 0;
-	int b = 1;
+	unsigned int fib = 0;
+	unsigned int a = 0;
+	unsigned int b = 1;
 
 	if(n>=3)
 	{
