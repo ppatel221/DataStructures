@@ -1,6 +1,6 @@
 unsigned int factorial (unsigned int n){
 
-	if(n>1)
+	if(n > 1)
 	{
 		return n * factorial(n-1);
 	}else
@@ -12,7 +12,7 @@ unsigned int factorial (unsigned int n){
 
 double power (double base, unsigned int n){
 
-	if(n>0)
+	if(n > 0)
 	{
 		return (base * power(base ,n-1));
 	}else
